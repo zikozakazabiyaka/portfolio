@@ -1,0 +1,10 @@
+@import '../../../../styles/virables.scss';
+@import '../../../../styles/mixins.scss';
+
+.details__list-item {
+  @include flex();
+
+  & + & {
+    margin-top: $indent-sm;
+  }
+}

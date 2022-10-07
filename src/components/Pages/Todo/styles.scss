@@ -1,0 +1,7 @@
+@import '../../../styles/mixins.scss';
+
+.todo {
+  @include flex();
+  flex-direction: column;
+  padding: 32px 0 16px;
+}

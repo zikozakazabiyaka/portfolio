@@ -1,0 +1,13 @@
+@import '../../../../styles/virables.scss';
+
+.section__link {
+  padding-left: $indent-xxs;
+
+  &--none {
+    text-decoration: none;
+  }
+
+  &--inherit {
+    color: inherit;
+  }
+}

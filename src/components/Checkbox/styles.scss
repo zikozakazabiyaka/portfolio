@@ -1,0 +1,34 @@
+@import '../../styles/virables.scss';
+@import '../../styles//mixins.scss';
+
+.checkbox {
+  position: relative;
+  @include flex();
+  cursor: pointer;
+
+  &__shape {
+    @include flex(flex, center, center);
+    @include size(18px, 18px);
+    border: 1px solid $gray-color;
+    border-radius: $radius-sm;
+    background-color: $white-color;
+  }
+
+  &__input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+
+    &:checked ~ .checkbox__shape {
+      background-color: $primary-color;
+    }
+
+    &:focus ~ .checkbox__shape {
+      box-shadow: 0 0 4px 2px $pearl-color;
+    }
+  }
+
+  &__text {
+    margin-left: $indent-xxs;
+  }
+}

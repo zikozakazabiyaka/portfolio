@@ -1,0 +1,7 @@
+@import '../../../../styles/virables.scss';
+
+.todos__list-item {
+  & + & {
+    margin-top: $indent-sm;
+  }
+}

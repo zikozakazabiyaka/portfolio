@@ -1,0 +1,10 @@
+@import '../../../styles/mixins.scss';
+
+.modal__content-info {
+  @include flex();
+  flex-direction: column;
+
+  h2 {
+    margin-bottom: 4px;
+  }
+}

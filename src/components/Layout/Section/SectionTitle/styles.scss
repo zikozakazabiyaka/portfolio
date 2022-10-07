@@ -1,0 +1,9 @@
+@import '../../../../styles/virables.scss';
+
+.section__title {
+  color: $gray-color;
+
+  &--brown {
+    color: $brown-color;
+  }
+}

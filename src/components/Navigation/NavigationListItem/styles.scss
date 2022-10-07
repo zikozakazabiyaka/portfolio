@@ -1,0 +1,7 @@
+@import '../../../styles/virables.scss';
+
+.navigation__list-item {
+  & + & {
+    margin-top: $indent-xxs;
+  }
+}

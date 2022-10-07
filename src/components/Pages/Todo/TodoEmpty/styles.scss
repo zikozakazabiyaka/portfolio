@@ -1,0 +1,8 @@
+@import '../../../../styles/virables.scss';
+
+.todo__empty {
+  margin-top: $indent-lg;
+  font-size: $font-size-lg;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+@import '../../../styles/virables.scss';
+@import '../../../styles/mixins.scss';
+
+.star-wars {
+  @include flex();
+  flex-direction: column;
+  min-height: 100%;
+  padding: 12px 0;
+  color: $white-color;
+  background:
+    url('../../../images/starWarsPlanet.png') no-repeat 90% 10%,
+    url('../../../images/star-wars-backgrounds-25.jpg');
+  background-attachment:fixed;
+}

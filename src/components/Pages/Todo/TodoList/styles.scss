@@ -1,0 +1,8 @@
+@import '../../../../styles/virables.scss';
+
+.todos__list {
+  width: 100%;
+  margin-top: $indent-xl;
+  list-style: none;
+  counter-reset: counter;
+}

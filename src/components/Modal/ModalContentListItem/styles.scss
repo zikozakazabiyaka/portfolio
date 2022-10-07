@@ -1,0 +1,22 @@
+@import '../../../styles/virables.scss';
+@import '../../../styles/mixins.scss';
+
+.modal__content-list-item {
+  width: 100%;
+
+  b {
+    color: $gray-color;
+  }
+
+  &--flex {
+    @include flex();
+  }
+
+  &--column {
+    flex-direction: column;
+  }
+
+  &--50 {
+    width: 50%;
+  }
+}

@@ -1,0 +1,7 @@
+@import '../../../../styles/virables.scss';
+@import '../../../../styles/mixins.scss';
+
+.star-wars__pagination {
+  @include flex(flex, flex-start, center);
+  margin-top: $indent-xl;
+}

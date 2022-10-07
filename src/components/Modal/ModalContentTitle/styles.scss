@@ -1,0 +1,11 @@
+@import '../../../styles/virables.scss';
+
+.modal__content-title {
+  width: 100%;
+  text-align: center;
+  margin: $indent-xs 0 4px;
+
+  &--left {
+    text-align: left;
+  }
+}

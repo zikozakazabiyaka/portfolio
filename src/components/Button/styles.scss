@@ -1,0 +1,89 @@
+@import '../../styles/virables.scss';
+@import '../../styles//mixins.scss';
+
+.button {
+  display: block;
+  width: 100%;
+  height: $control-height;
+  padding: 0 8px;
+  border: 1px solid transparent;
+  border-radius: $radius-sm;
+  color: $white-color;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  user-select: none;
+
+  &__icon {
+    display: block;
+    @include size(16px, 16px);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  &--primary {
+    background: $primary-color;
+
+    &:hover {
+      background-color: #75d76f;
+    }
+
+    &:active {
+      background-color: #43a53d;
+    }
+
+    &:disabled {
+      background: $primary-color;
+    }
+
+    &.is-active {
+      background: $white-color;
+      border-color: $primary-color;
+      color: $black-color;
+      pointer-events: none;
+    }
+  }
+
+  &--secondary {
+    background: $secondary-color;
+
+    &:hover {
+      background-color: #aaa;
+    }
+  
+    &:active {
+      background-color: #666;
+    }
+
+    &:disabled {
+      background: $secondary-color;
+    }
+  }
+
+  &--invalid {
+    background: $invalid-color;
+
+    &:hover {
+      background-color: #e55d5d;
+    }
+  
+    &:active {
+      background-color: #b12828;
+    }
+
+    &:disabled {
+      background: $invalid-color;
+    }
+  }
+
+  &:focus {
+    box-shadow: 0 0 4px 2px $pearl-color;
+  }
+
+  &--square {
+    width: $control-height;
+  }
+}

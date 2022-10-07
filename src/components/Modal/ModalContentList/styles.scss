@@ -1,0 +1,29 @@
+@import '../../../styles/virables.scss';
+@import '../../../styles/mixins.scss';
+
+.modal__content-list {
+  @include flex(flex, flex-start, center);
+  flex-direction: column;
+  list-style: none;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  &--xxs {
+    gap: $indent-xxs;
+  }
+
+  &--full-width {
+    width: 100%;
+  }
+
+  &--row {
+    flex-direction: row;
+  }
+
+  &--wrap {
+    flex-wrap: wrap;
+  }
+}

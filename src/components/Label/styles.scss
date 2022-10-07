@@ -1,0 +1,11 @@
+@import '../../styles/virables.scss';
+
+.label {
+  font-size: $font-size-md;
+  line-height: 1.4;
+
+  &.is-required::after {
+    content: '*';
+    color: #f00;
+  }
+}

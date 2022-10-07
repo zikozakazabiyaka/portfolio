@@ -1,0 +1,6 @@
+@import '../../../../styles/virables.scss';
+
+.todo__controls {
+  display: flex;
+  gap: $indent-sm;
+}

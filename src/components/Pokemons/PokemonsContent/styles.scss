@@ -1,0 +1,8 @@
+@import '../../../styles/virables.scss';
+@import '../../../styles/mixins.scss';
+
+.pokemons__content {
+  min-width: 680px;
+  margin-top: $indent-lg;
+  padding: 12px;
+}

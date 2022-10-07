@@ -1,0 +1,7 @@
+@import '../../../styles/virables.scss';
+
+.action-wrapper {
+  display: flex;
+  justify-content: left;
+  margin-top: $indent-xl;
+}

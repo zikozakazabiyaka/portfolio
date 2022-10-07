@@ -1,0 +1,11 @@
+@import '../../styles/virables.scss';
+@import '../../styles/mixins.scss';
+
+.pokemons {
+  @include flex();
+  flex-direction: column;
+  min-height: 100%;
+  padding: 12px 0;
+  background: url('../../images/pokemons.jpg') center center;
+  background-attachment:fixed;
+}

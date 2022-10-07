@@ -1,0 +1,18 @@
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+// TODO: remove
+@mixin paddingArea($padding) {
+  padding: $padding;
+}
+// TODO: remove
+@mixin marginArea($margin) {
+  margin: $margin;
+}
+
+@mixin flex($display: flex, $alignItems: center, $justifyContent: flex-start) {
+  display: $display;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+}

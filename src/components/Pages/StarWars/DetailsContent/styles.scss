@@ -1,0 +1,15 @@
+@import '../../../../styles/virables.scss';
+@import '../../../../styles/mixins.scss';
+
+.details-content {
+  min-width: 600px;
+  margin-top: $indent-lg;
+  padding: 12px;
+  border-radius: $radius-lg;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  h1 {
+    text-align: center;
+    margin-bottom: $indent-sm;
+  }
+}

@@ -1,0 +1,9 @@
+@import '../../../styles/virables.scss';
+@import '../../../styles/mixins.scss';
+
+.login {
+  @include flex(flex, center, center);
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+}

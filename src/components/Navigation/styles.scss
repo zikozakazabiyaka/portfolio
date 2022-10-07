@@ -1,0 +1,8 @@
+@import '../../styles/virables.scss';
+
+.navigation {
+  flex-shrink: 0;
+  width: 200px;
+  height: 100%;
+  background: $pearl-color;
+}

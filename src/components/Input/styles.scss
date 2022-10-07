@@ -1,0 +1,21 @@
+@import '../../styles/virables.scss';
+
+.input {
+  height: $control-height;
+  width: 100%;
+  padding-left: $indent-xxs;
+  padding-right: $indent-xxs;
+  background: $white-color;
+  border: 1px solid $gray-color;
+  border-radius: $radius-sm;
+  font-size: $font-size-md;
+  transition: 0.3s;
+
+  &:focus {
+    box-shadow: 0 0 4px 2px $pearl-color;
+  }
+
+  &.is-invalid {
+    border-color: $invalid-color;
+  }
+}

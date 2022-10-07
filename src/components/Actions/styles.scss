@@ -1,0 +1,11 @@
+@import '../../styles/virables.scss';
+@import '../../styles/mixins.scss';
+
+.actions {
+  @include flex();
+  gap: $indent-sm;
+
+  &--full-width {
+    width: 100%;
+  }
+};

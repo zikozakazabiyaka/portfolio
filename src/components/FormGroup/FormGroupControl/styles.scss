@@ -1,0 +1,9 @@
+@import '../../../styles/virables.scss';
+
+.form-group__control {
+  text-align: left;
+
+  & + & {
+    margin-top: $indent-md;
+  }
+}

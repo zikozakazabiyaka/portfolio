@@ -1,0 +1,11 @@
+@import '../../../../styles/virables.scss';
+@import '../../../../styles/mixins.scss';
+
+.login__form {
+  width: 400px;
+  margin-top: $indent-lg;
+  padding: 20px 24px;
+  border-radius: $radius-sm;
+  background: $snow-white-color;
+  box-shadow: 0px 1px 8px 0px $midnight-color;
+}

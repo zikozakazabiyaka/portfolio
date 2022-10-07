@@ -1,0 +1,39 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/virables.scss';
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  @include size(100%, 100%);
+  background: rgba($color: $black-color, $alpha: 0.5);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 480px;
+  min-height: 320px;
+  padding: 32px;
+  background-color: $white-color;
+  border-radius: $radius-md;
+  transform: translate(-50%, -50%);
+
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  &__content-image {
+    width: 140px;
+    margin: 0 auto 10px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

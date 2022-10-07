@@ -1,0 +1,24 @@
+@import '../../../styles/virables.scss';
+@import '../../../styles/mixins.scss';
+
+.pokemons__panel {
+  position: relative;
+  @include flex(flex, center, space-between);
+  width: 100%;
+  padding: 14px 12px 14px 36px;
+  gap: $indent-sm;
+  background-color: rgba($color: $white-color, $alpha: 0.9);
+  border-radius: $radius-sm;
+  box-shadow: 0px 0 4px 1px $gray-color;
+
+  &::before {
+    counter-increment: counter;
+    content: counter(counter) '.';
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    font-size: $font-size-lg;
+    line-height: $line-height-lg;
+    transform: translateY(-50%);
+  }
+}

@@ -1,0 +1,12 @@
+.actions__item {
+  flex: 1 1 auto;
+  min-width: 68px;
+
+  &--md {
+    min-width: 120px;
+  }
+
+  &--width-auto {
+    min-width: auto;
+  }
+};
