@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/zikozakazabiyaka.github.io/portfolio/static/css/main.1e728a4b.css",
+    "main.js": "/zikozakazabiyaka.github.io/portfolio/static/js/main.1e4ce7d0.js",
+    "static/media/starWarsPlanet.png": "/zikozakazabiyaka.github.io/portfolio/static/media/starWarsPlanet.8f6cfa100e8688973760.png",
+    "static/media/star-wars-backgrounds-25.jpg": "/zikozakazabiyaka.github.io/portfolio/static/media/star-wars-backgrounds-25.b211fc0645e20fb74453.jpg",
+    "static/media/pokemons.jpg": "/zikozakazabiyaka.github.io/portfolio/static/media/pokemons.bce0c9b10b071c02582f.jpg",
+    "static/media/404.png": "/zikozakazabiyaka.github.io/portfolio/static/media/404.d56be6dcdb4a6355b9db.png",
+    "static/media/steel.png": "/zikozakazabiyaka.github.io/portfolio/static/media/steel.7151eff9bf69bbfd1edb.png",
+    "static/media/electric.png": "/zikozakazabiyaka.github.io/portfolio/static/media/electric.f6fdc3e9a052d02b9f27.png",
+    "static/media/oops.jpg": "/zikozakazabiyaka.github.io/portfolio/static/media/oops.92b10d987dea31d66e3c.jpg",
+    "static/media/special-defense.svg": "/zikozakazabiyaka.github.io/portfolio/static/media/special-defense.c3a0b9b938bd696e71cb4a911095d1eb.svg",
+    "static/media/speed.svg": "/zikozakazabiyaka.github.io/portfolio/static/media/speed.919a9c80e685c22bf051897d8c37f6fb.svg",
+    "static/media/special-attack.svg": "/zikozakazabiyaka.github.io/portfolio/static/media/special-attack.cc085c97d12f4f02f14775a07b084eb8.svg",
+    "static/media/hp.svg": "/zikozakazabiyaka.github.io/portfolio/static/media/hp.82c7b7137ef79dafb6110823c3627d35.svg",
+    "static/media/attack.svg": "/zikozakazabiyaka.github.io/portfolio/static/media/attack.a85eac3bd833455f798dc2a74de71371.svg",
+    "static/media/cross.svg": "/zikozakazabiyaka.github.io/portfolio/static/media/cross.791f09db985c2eb22e49880fffdf9649.svg",
+    "static/media/loader.svg": "/zikozakazabiyaka.github.io/portfolio/static/media/loader.e9d26b6e2d6002b2037470899143486a.svg",
+    "static/media/defense.svg": "/zikozakazabiyaka.github.io/portfolio/static/media/defense.e297aa5c7ce0a55c0ad799faf909581e.svg",
+    "index.html": "/zikozakazabiyaka.github.io/portfolio/index.html",
+    "main.1e728a4b.css.map": "/zikozakazabiyaka.github.io/portfolio/static/css/main.1e728a4b.css.map",
+    "main.1e4ce7d0.js.map": "/zikozakazabiyaka.github.io/portfolio/static/js/main.1e4ce7d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e728a4b.css",
+    "static/js/main.1e4ce7d0.js"
+  ]
+}
