@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b7007b61.css",
-    "main.js": "/portfolio/static/js/main.a345f3f0.js",
+    "main.js": "/portfolio/static/js/main.78be22c2.js",
     "static/media/starWarsPlanet.png": "/portfolio/static/media/starWarsPlanet.8f6cfa100e8688973760.png",
     "static/media/star-wars-backgrounds-25.jpg": "/portfolio/static/media/star-wars-backgrounds-25.b211fc0645e20fb74453.jpg",
     "static/media/pokemons.jpg": "/portfolio/static/media/pokemons.bce0c9b10b071c02582f.jpg",
@@ -19,10 +19,10 @@
     "static/media/defense.svg": "/portfolio/static/media/defense.e297aa5c7ce0a55c0ad799faf909581e.svg",
     "index.html": "/portfolio/index.html",
     "main.b7007b61.css.map": "/portfolio/static/css/main.b7007b61.css.map",
-    "main.a345f3f0.js.map": "/portfolio/static/js/main.a345f3f0.js.map"
+    "main.78be22c2.js.map": "/portfolio/static/js/main.78be22c2.js.map"
   },
   "entrypoints": [
     "static/css/main.b7007b61.css",
-    "static/js/main.a345f3f0.js"
+    "static/js/main.78be22c2.js"
   ]
 }
