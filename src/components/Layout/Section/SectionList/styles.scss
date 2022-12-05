@@ -4,4 +4,8 @@
   &--none {
     list-style: none;
   }
+
+  &--disabled {
+    padding-left: 0;
+  }
 }

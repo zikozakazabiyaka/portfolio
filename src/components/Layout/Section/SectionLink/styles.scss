@@ -10,4 +10,8 @@
   &--inherit {
     color: inherit;
   }
+
+  &--disabled {
+    padding-left: 0;
+  }
 }

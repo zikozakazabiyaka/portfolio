@@ -86,22 +86,26 @@ const SummaryContainer = () => (
             </SectionListItem>
             <SectionListItem>
               <>
-                <b className="section__list-item section__list-item--bold">Technologies:</b> HTML, CSS, Sass (SCSS), React, JSON
+                <b className="section__list-item section__list-item--bold">Technologies: </b>
+                HTML, CSS, Sass (SCSS), ES6, React, Redux, Redux Thunk, Rest API
               </>
             </SectionListItem>
             <SectionListItem>
               <>
-                <b className="section__list-item section__list-item--bold">IDE:</b> VSCode, Chrome DevTools
+                <b className="section__list-item section__list-item--bold">IDE: </b>
+                VSCode, Chrome DevTools
               </>
             </SectionListItem>
             <SectionListItem>
               <>
-                <b className="section__list-item section__list-item--bold">Methodologies:</b> BEM
+                <b className="section__list-item section__list-item--bold">Methodologies: </b>
+                BEM
               </>
             </SectionListItem>
             <SectionListItem>
               <>
-                <b className="section__list-item section__list-item--bold">Tools:</b> Git, Figma, NPM, Trello
+                <b className="section__list-item section__list-item--bold">Tools: </b>
+                Git, Figma, NPM
               </>
             </SectionListItem>
           </SectionList>
@@ -117,29 +121,60 @@ const SummaryContainer = () => (
         </Section>
         <Section>
           <SectionTitle color="brown"><h3>Experience</h3></SectionTitle>
-          <b className="section__item section__item--bold">Game Observer at Starladder (2018-2020)</b>
-          <SectionList>
-            <SectionListItem>
-              <>Observation of games</>
-            </SectionListItem>
-            <SectionListItem>
-              <>
-                Translations of games at streaming platform
-                <SectionLink
-                    href="https://www.twitch.tv/"
-                    target="_blank"
-                  >
-                    twitch
-                  </SectionLink>
-              </>
-            </SectionListItem>
-          </SectionList>
+            <Section>
+              <b className="section__item section__item--bold">Game Observer at Starladder (2018-2020)</b>
+              <SectionList>
+                <SectionListItem>
+                  <>Observation of games</>
+                </SectionListItem>
+                <SectionListItem>
+                  <>
+                    Translations of games at streaming platform
+                    <SectionLink
+                        href="https://www.twitch.tv/"
+                        target="_blank"
+                      >
+                        twitch
+                      </SectionLink>
+                  </>
+                </SectionListItem>
+              </SectionList>
+            </Section>
+            <Section>
+              <b className="section__item--bold">Frontend Developer (2020 - present)</b>
+              <SectionList listStyle="none" indent="disabled">
+                <SectionListItem >
+                  <p>Portfolio</p>
+                </SectionListItem>
+                <SectionListItem >
+                  <>
+                    <SectionLink
+                      href="https://zikozakazabiyaka.github.io/portfolio/"
+                      target="_blank"
+                      indent="disabled"
+                    >
+                      Preview
+                    </SectionLink>
+                    {' & '}
+                    <SectionLink
+                      href="https://github.com/zikozakazabiyaka/portfolio"
+                      target="_blank"
+                      indent="disabled"
+                    >
+                      Code
+                    </SectionLink>
+                  </>
+                </SectionListItem>
+                <SectionListItem>
+                  <p>Technologies used: React, React Router, React Router Dom, SCSS, BEM, Redux, Redux Thunk, Rest API</p>
+                </SectionListItem>
+              </SectionList>
+            </Section>
         </Section>
         <Section>
-          <b className="section__item--bold">Frontend Developer (2020 - present)</b>
-        </Section>
-        <Section>
-          <b className="section__item--bold">JavaScript & Corezoid Developer at IdeaBank (2021 - 2022)</b>
+          <b className="section__item--bold">
+            JavaScript & Corezoid Developer at IdeaBank (2021 - 2022)
+          </b>
           <SectionList>
             <SectionListItem>
               <>Creation of business processes</>

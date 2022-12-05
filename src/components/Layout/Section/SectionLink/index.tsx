@@ -9,9 +9,10 @@ interface IProps {
   target?: string,
   decoration?: 'none',
   color?: 'inherit',
+  indent?: 'disabled',
 }
 
-const SectionLink = ({ children, href, target, decoration, color }: IProps) => {
+const SectionLink = ({ children, href, target, decoration, color, indent }: IProps) => {
 
   return (
     <a
@@ -20,7 +21,8 @@ const SectionLink = ({ children, href, target, decoration, color }: IProps) => {
       rel={target === '_blank' ? 'noopener noreferrer' : undefined}
       className={classNames(
         "section__link", {[`section__link--${decoration}`]: decoration},
-        "section__link", {[`section__link--${color}`]: color}
+        "section__link", {[`section__link--${color}`]: color},
+        "section__link", {[`section__link--${indent}`]: indent},
       )}
     >
       {children}
